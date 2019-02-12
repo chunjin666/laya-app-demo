@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":750,"height":1334},"compId":2,"child":[{"type":"Image","props":{"top":0,"skin":"comp/img_bg.png","right":0,"left":0,"bottom":0,"sizeGrid":"30,10,10,10"},"compId":3}],"loadList":["comp/img_bg.png"],"loadList3D":[]}

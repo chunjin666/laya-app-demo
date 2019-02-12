@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":2,
-    "selecteID":4,
+    "selecteID":8,
     "searchKey":"Scene",
     "props":{"width":750,"sceneColor":"#000000","height":1334},
     "nodeParent":-1,
-    "maxID":5,
+    "maxID":10,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -41,6 +41,53 @@
             "compId":4,
             "child":[
                 ]
+        },
+        {
+            "x":15,
+            "type":"Script",
+            "switchAble":true,
+            "source":"src/script/PageScript.ts",
+            "searchKey":"Script,PageScript",
+            "removeAble":true,
+            "props":{},
+            "nodeParent":2,
+            "label":"PageScript",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":5,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Button",
+            "searchKey":"Button,btn_page4",
+            "props":{"y":734,"width":150,"var":"btn_page4","skin":"comp/button.png","labelSize":28,"label":"page4","height":50,"centerX":0},
+            "nodeParent":2,
+            "label":"btn_page4",
+            "isOpen":null,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":8,
+            "child":[
+                {
+                    "type":"Script",
+                    "switchAble":true,
+                    "source":"src/script/PageNavScript.ts",
+                    "searchKey":"Script,PageNavScript",
+                    "removeAble":true,
+                    "props":{"navPageScene":"Page4.scene"},
+                    "nodeParent":8,
+                    "label":"PageNavScript",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":9,
+                    "child":[
+                        ]
+                }]
         }],
     "animations":[
         {
